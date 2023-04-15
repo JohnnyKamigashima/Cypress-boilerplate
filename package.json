@@ -1,6 +1,12 @@
 {
   "devDependencies": {
+<<<<<<< HEAD
     "cypress": "^12.9.0"
+=======
+    "cypress": "^12.9.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-cypress": "^2.13.2"
+>>>>>>> 0847ef0 (Novos arquivos de configuração)
   },
   "name": "cypress-boilerplate",
   "version": "1.0.0",
