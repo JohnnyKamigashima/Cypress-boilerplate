@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: "http://www.google.com",
+    baseUrl: "https://www.google.com",
     retries: {
       runMode: 1,
       openMode: 4,
