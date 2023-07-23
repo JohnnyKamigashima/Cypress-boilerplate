@@ -3,11 +3,14 @@
         "lib": ["ES2015", "DOM"],
         "allowJs": true,
         "noEmit": true,
-        "types": ["cypress"]
+        "baseUrl": "./",
+        "types": [
+            "cypress",
+            "cypress-mochawesome-reporter",
+            "cypress-plugin-steps"
+        ]
     },
-
     "include": [
-        "cypress/**/*.js", "cypress-file-upload"
+        "cypress/**/*.ts", "cypress-file-upload"
     ]
-
 }

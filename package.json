@@ -1,9 +1,14 @@
 {
   "devDependencies": {
-    "@shelex/cypress-allure-plugin": "^2.40.0",
-    "cypress": "^12.9.0",
+    "cypress": "^10.11.0",
+    "cypress-codegen": "^1.4.2",
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "cypress-network-idle": "^1.14.2",
     "eslint": "^8.38.0",
-    "eslint-plugin-cypress": "^2.13.2"
+    "eslint-plugin-cypress": "^2.13.2",
+    "i": "^0.3.7",
+    "npm": "^9.7.2",
+    "typescript": "^5.1.6"
   },
   "name": "cypress-boilerplate",
   "version": "1.0.0",
@@ -50,6 +55,8 @@
     "concat-map": "^0.0.1",
     "core-util-is": "^1.0.2",
     "cross-spawn": "^7.0.3",
+    "cypress-get-table": "^1.0.1",
+    "cypress-plugin-steps": "^1.1.1",
     "dashdash": "^1.14.1",
     "dayjs": "^1.11.7",
     "debug": "^4.3.4",
@@ -171,7 +178,7 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "runner": "cypress run"
   },
   "keywords": [
     "boiler",
@@ -180,5 +187,5 @@
   ],
   "author": "Johnny Kamigashima",
   "license": "ISC",
-  "description": ""
+  "description": "Boilerplate baseado na aula de Cypress do Professor Pedro Guerra na Iterasys 2023. Neste boiler plate, existe a configuração de - BaseURL - Resolução de tela - Retries - ESLint rc - TSconfig.json"
 }
