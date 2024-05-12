@@ -15,10 +15,7 @@
 
 // Import commands.ts using ES2015 syntax:
 import './commands'
-import 'cypress-plugin-steps';
 import 'cypress-network-idle';
-import 'cypress-get-table';
-import 'cypress-codegen';
 import 'cypress-mochawesome-reporter/register';
 
 // Alternatively you can use CommonJS syntax:

@@ -7,7 +7,6 @@
         "types": [
             "cypress",
             "cypress-mochawesome-reporter",
-            "cypress-plugin-steps"
         ]
     },
     "include": [
